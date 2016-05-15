@@ -33,7 +33,7 @@ function solution() {
     if ((arrColor.some(function (item) {
             return item == guessInputColor;
         })) == false) {
-        alert("I dont recognized your colour\n\n" + "Please try again");
+        alert("I dont recognized your colour\n\n" + "Please try again late");
         return false;
     }
 
